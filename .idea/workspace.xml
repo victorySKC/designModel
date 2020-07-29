@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e1aa14-1621-4397-b814-8fd8443dbed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designModel/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designModel/facade/Facade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/设计模式笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式笔记.md" afterDir="false" />
     </list>
@@ -21,39 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/设计模式笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="597">
-                <caret line="830" column="67" selection-start-line="830" selection-start-column="67" selection-end-line="830" selection-end-column="67" />
+              <first_editor relative-caret-position="591">
+                <caret line="897" column="26" selection-start-line="897" selection-start-column="26" selection-end-line="897" selection-end-column="26" />
                 <folding>
                   <element signature="e#198#199#0" expanded="true" />
                   <element signature="e#247#248#0" expanded="true" />
@@ -111,6 +84,14 @@
                   <element signature="e#615#616#0" expanded="true" />
                   <element signature="e#647#648#0" expanded="true" />
                   <element signature="e#699#700#0" expanded="true" />
+                  <element signature="e#497#498#0" expanded="true" />
+                  <element signature="e#544#545#0" expanded="true" />
+                  <element signature="e#569#570#0" expanded="true" />
+                  <element signature="e#616#617#0" expanded="true" />
+                  <element signature="e#656#657#0" expanded="true" />
+                  <element signature="e#703#704#0" expanded="true" />
+                  <element signature="e#728#729#0" expanded="true" />
+                  <element signature="e#775#776#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -119,89 +100,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/proxy/Proxy.java">
+        <entry file="file://$PROJECT_DIR$/src/com/designModel/facade/Facade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="8" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="383">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="49" selection-start-line="8" selection-end-line="49" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/prototype/PrototypeTestA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/adapter/AdapterObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="8" selection-end-line="52" selection-end-column="1" />
-              <folding>
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/adapter/AdapterIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/adapter/AdapterA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="38" lean-forward="true" selection-start-line="8" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -241,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/com/designModel/adapter/AdapterIn.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/com/designModel/facade/Facade.java" />
         <option value="$PROJECT_DIR$/设计模式笔记.md" />
       </list>
     </option>
@@ -296,6 +209,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/designModel/adapter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
@@ -318,20 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Proxy">
-    <configuration name="AdapterA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designModel.adapter.AdapterA" />
-      <module name="Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.designModel.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Facade">
     <configuration name="AdapterIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.adapter.AdapterIn" />
       <module name="Design" />
@@ -371,6 +272,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Facade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designModel.facade.Facade" />
+      <module name="Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designModel.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.proxy.Proxy" />
       <module name="Design" />
@@ -386,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Facade" />
         <item itemvalue="Application.Proxy" />
         <item itemvalue="Application.Decorator" />
         <item itemvalue="Application.AdapterIn" />
         <item itemvalue="Application.AdapterObject" />
-        <item itemvalue="Application.AdapterA" />
       </list>
     </recent_temporary>
   </component>
@@ -441,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596008998379</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="11">
+      <created>1596011163586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596011163586</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29462000" />
+    <option name="totallyTimeSpent" value="31120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-124" width="1936" height="1176" extended-state="6" />
@@ -459,13 +380,13 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33877158" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34452975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917467" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.33013436" />
@@ -483,13 +404,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加单例模式内容，但是没有全部理解" />
     <MESSAGE value="添加原型模式内容，注意区分深复制与浅复制" />
     <MESSAGE value="添加原型模式内容，注意区分深复制与浅复制。" />
     <MESSAGE value="添加适配器内容，适配器在类、接口、对象三个层次上实现" />
     <MESSAGE value="添加装饰模式内容，这是spring IOC底层的核心实现方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加装饰模式内容，这是spring IOC底层的核心实现方式" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/Sender.java">
@@ -681,11 +629,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designModel/facade/Facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="597">
-            <caret line="830" column="67" selection-start-line="830" selection-start-column="67" selection-end-line="830" selection-end-column="67" />
+          <first_editor relative-caret-position="591">
+            <caret line="897" column="26" selection-start-line="897" selection-start-column="26" selection-end-line="897" selection-end-column="26" />
             <folding>
               <element signature="e#198#199#0" expanded="true" />
               <element signature="e#247#248#0" expanded="true" />
@@ -743,6 +708,14 @@
               <element signature="e#615#616#0" expanded="true" />
               <element signature="e#647#648#0" expanded="true" />
               <element signature="e#699#700#0" expanded="true" />
+              <element signature="e#497#498#0" expanded="true" />
+              <element signature="e#544#545#0" expanded="true" />
+              <element signature="e#569#570#0" expanded="true" />
+              <element signature="e#616#617#0" expanded="true" />
+              <element signature="e#656#657#0" expanded="true" />
+              <element signature="e#703#704#0" expanded="true" />
+              <element signature="e#728#729#0" expanded="true" />
+              <element signature="e#775#776#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
