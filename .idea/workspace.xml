@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e1aa14-1621-4397-b814-8fd8443dbed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designModel/adapter/AdapterA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designModel/adapter/AdapterIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designModel/adapter/AdapterObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/设计模式笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式笔记.md" afterDir="false" />
     </list>
@@ -54,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/设计模式笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="507">
-                <caret line="683" column="3" selection-start-line="683" selection-start-column="3" selection-end-line="683" selection-end-column="3" />
+              <first_editor relative-caret-position="597">
+                <caret line="758" column="20" selection-start-line="758" selection-start-column="20" selection-end-line="758" selection-end-column="20" />
                 <folding>
                   <element signature="e#198#199#0" expanded="true" />
                   <element signature="e#247#248#0" expanded="true" />
@@ -105,9 +103,24 @@
                   <element signature="e#728#729#0" expanded="true" />
                   <element signature="e#807#808#0" expanded="true" />
                   <element signature="e#859#860#0" expanded="true" />
+                  <element signature="e#390#391#0" expanded="true" />
+                  <element signature="e#446#447#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="49" selection-start-line="8" selection-end-line="49" />
+              <folding>
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/com/designModel/adapter/.AdapterClass.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/adapter/AdapterA.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/adapter/AdapterIn.java" />
+        <option value="$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java" />
         <option value="$PROJECT_DIR$/设计模式笔记.md" />
       </list>
     </option>
@@ -280,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdapterIn">
+  <component name="RunManager" selected="Application.Decorator">
     <configuration name="AdapterA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.adapter.AdapterA" />
       <module name="Design" />
@@ -333,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designModel.factory.FactoryTest02" />
+    <configuration name="Decorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designModel.decorator.Decorator" />
       <module name="Design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designModel.factory.*" />
+          <option name="PATTERN" value="com.designModel.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator" />
         <item itemvalue="Application.AdapterIn" />
         <item itemvalue="Application.AdapterObject" />
         <item itemvalue="Application.AdapterA" />
         <item itemvalue="Application.BuilderTest" />
-        <item itemvalue="Application.FactoryTest02" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +380,7 @@
       <workItem from="1595648440943" duration="9821000" />
       <workItem from="1595839491456" duration="4662000" />
       <workItem from="1595854141178" duration="599000" />
-      <workItem from="1595987273671" duration="11101000" />
+      <workItem from="1595987273671" duration="13040000" />
     </task>
     <task id="LOCAL-00001" summary="添加单例模式内容，但是没有全部理解">
       <created>1595842945672</created>
@@ -389,17 +403,24 @@
       <option name="project" value="LOCAL" />
       <updated>1595991034015</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加适配器内容，适配器在类、接口、对象三个层次上实现">
+      <created>1596006869766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596006869766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26183000" />
+    <option name="totallyTimeSpent" value="28122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-124" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,7 +428,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33877158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33877158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,7 +456,8 @@
     <MESSAGE value="添加单例模式内容，但是没有全部理解" />
     <MESSAGE value="添加原型模式内容，注意区分深复制与浅复制" />
     <MESSAGE value="添加原型模式内容，注意区分深复制与浅复制。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加原型模式内容，注意区分深复制与浅复制。" />
+    <MESSAGE value="添加适配器内容，适配器在类、接口、对象三个层次上实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加适配器内容，适配器在类、接口、对象三个层次上实现" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/Sender.java">
@@ -601,11 +623,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="49" selection-start-line="8" selection-end-line="49" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="507">
-            <caret line="683" column="3" selection-start-line="683" selection-start-column="3" selection-end-line="683" selection-end-column="3" />
+          <first_editor relative-caret-position="597">
+            <caret line="758" column="20" selection-start-line="758" selection-start-column="20" selection-end-line="758" selection-end-column="20" />
             <folding>
               <element signature="e#198#199#0" expanded="true" />
               <element signature="e#247#248#0" expanded="true" />
@@ -655,6 +688,8 @@
               <element signature="e#728#729#0" expanded="true" />
               <element signature="e#807#808#0" expanded="true" />
               <element signature="e#859#860#0" expanded="true" />
+              <element signature="e#390#391#0" expanded="true" />
+              <element signature="e#446#447#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
