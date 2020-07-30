@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e1aa14-1621-4397-b814-8fd8443dbed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designModel/facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designModel/bridge/Bridge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/设计模式笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式笔记.md" afterDir="false" />
     </list>
@@ -26,7 +26,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="591">
-                <caret line="897" column="26" selection-start-line="897" selection-start-column="26" selection-end-line="897" selection-end-column="26" />
+                <caret line="979" column="19" selection-start-line="979" selection-start-column="19" selection-end-line="979" selection-end-column="19" />
                 <folding>
                   <element signature="e#198#199#0" expanded="true" />
                   <element signature="e#247#248#0" expanded="true" />
@@ -92,6 +92,18 @@
                   <element signature="e#703#704#0" expanded="true" />
                   <element signature="e#728#729#0" expanded="true" />
                   <element signature="e#775#776#0" expanded="true" />
+                  <element signature="e#372#373#0" expanded="true" />
+                  <element signature="e#423#424#0" expanded="true" />
+                  <element signature="e#496#497#0" expanded="true" />
+                  <element signature="e#546#547#0" expanded="true" />
+                  <element signature="e#621#622#0" expanded="true" />
+                  <element signature="e#646#647#0" expanded="true" />
+                  <element signature="e#671#672#0" expanded="true" />
+                  <element signature="e#697#698#0" expanded="true" />
+                  <element signature="e#728#729#0" expanded="true" />
+                  <element signature="e#756#757#0" expanded="true" />
+                  <element signature="e#821#822#0" expanded="true" />
+                  <element signature="e#854#855#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -100,20 +112,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/designModel/bridge/Bridge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="8" selection-end-line="60" selection-end-column="1" />
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/designModel/facade/Facade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="703">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -154,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/proxy/Proxy.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/facade/Facade.java" />
+        <option value="$PROJECT_DIR$/src/com/designModel/bridge/Bridge.java" />
         <option value="$PROJECT_DIR$/设计模式笔记.md" />
       </list>
     </option>
@@ -170,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -232,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Facade">
+  <component name="RunManager" selected="Application.Bridge">
     <configuration name="AdapterIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.adapter.AdapterIn" />
       <module name="Design" />
@@ -246,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdapterObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designModel.adapter.AdapterObject" />
+    <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designModel.bridge.Bridge" />
       <module name="Design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designModel.adapter.*" />
+          <option name="PATTERN" value="com.designModel.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bridge" />
         <item itemvalue="Application.Facade" />
         <item itemvalue="Application.Proxy" />
         <item itemvalue="Application.Decorator" />
         <item itemvalue="Application.AdapterIn" />
-        <item itemvalue="Application.AdapterObject" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +345,7 @@
       <workItem from="1595839491456" duration="4662000" />
       <workItem from="1595854141178" duration="599000" />
       <workItem from="1595987273671" duration="14380000" />
+      <workItem from="1596071618293" duration="2121000" />
     </task>
     <task id="LOCAL-00001" summary="添加单例模式内容，但是没有全部理解">
       <created>1595842945672</created>
@@ -362,17 +389,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596011163586</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="外观模式，感觉名字和实际内容不相符">
+      <created>1596012857753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596012857753</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31120000" />
+    <option name="totallyTimeSpent" value="33900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-124" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,7 +414,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34452975" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34452975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,6 +463,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加单例模式内容，但是没有全部理解" />
@@ -437,7 +485,8 @@
     <MESSAGE value="添加适配器内容，适配器在类、接口、对象三个层次上实现" />
     <MESSAGE value="添加装饰模式内容，这是spring IOC底层的核心实现方式" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="外观模式，感觉名字和实际内容不相符" />
+    <option name="LAST_COMMIT_MESSAGE" value="外观模式，感觉名字和实际内容不相符" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/Sender.java">
@@ -631,17 +680,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/designModel/facade/Facade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="703">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designModel/bridge/Bridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="8" selection-end-line="60" selection-end-column="1" />
           <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -650,7 +710,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="591">
-            <caret line="897" column="26" selection-start-line="897" selection-start-column="26" selection-end-line="897" selection-end-column="26" />
+            <caret line="979" column="19" selection-start-line="979" selection-start-column="19" selection-end-line="979" selection-end-column="19" />
             <folding>
               <element signature="e#198#199#0" expanded="true" />
               <element signature="e#247#248#0" expanded="true" />
@@ -716,6 +776,18 @@
               <element signature="e#703#704#0" expanded="true" />
               <element signature="e#728#729#0" expanded="true" />
               <element signature="e#775#776#0" expanded="true" />
+              <element signature="e#372#373#0" expanded="true" />
+              <element signature="e#423#424#0" expanded="true" />
+              <element signature="e#496#497#0" expanded="true" />
+              <element signature="e#546#547#0" expanded="true" />
+              <element signature="e#621#622#0" expanded="true" />
+              <element signature="e#646#647#0" expanded="true" />
+              <element signature="e#671#672#0" expanded="true" />
+              <element signature="e#697#698#0" expanded="true" />
+              <element signature="e#728#729#0" expanded="true" />
+              <element signature="e#756#757#0" expanded="true" />
+              <element signature="e#821#822#0" expanded="true" />
+              <element signature="e#854#855#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
