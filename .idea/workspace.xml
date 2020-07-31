@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e1aa14-1621-4397-b814-8fd8443dbed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designModel/command/CommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designModel/memento/MementoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/设计模式笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -139,6 +138,39 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/designModel/memento/MementoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+              <folding>
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/designModel/cor/Cor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -224,6 +256,7 @@
         <option value="$PROJECT_DIR$/src/com/designModel/cor/Cor.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/command/CommandTest.java" />
         <option value="$PROJECT_DIR$/设计模式笔记.md" />
+        <option value="$PROJECT_DIR$/src/com/designModel/memento/MementoTest.java" />
       </list>
     </option>
   </component>
@@ -264,6 +297,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -301,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CommandTest">
+  <component name="RunManager" selected="Application.MementoTest">
     <configuration name="CommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.command.CommandTest" />
       <module name="Design" />
@@ -341,6 +382,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MementoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designModel.memento.MementoTest" />
+      <module name="Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designModel.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.observer.ObserverTest" />
       <module name="Design" />
@@ -354,26 +408,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Template" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designModel.template.Template" />
-      <module name="Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.designModel.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MementoTest" />
         <item itemvalue="Application.CommandTest" />
         <item itemvalue="Application.Cor" />
         <item itemvalue="Application.InteratorTest" />
         <item itemvalue="Application.ObserverTest" />
-        <item itemvalue="Application.Template" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +431,7 @@
       <workItem from="1595987273671" duration="14380000" />
       <workItem from="1596071618293" duration="7366000" />
       <workItem from="1596106306324" duration="29000" />
-      <workItem from="1596157031670" duration="12688000" />
+      <workItem from="1596157031670" duration="14851000" />
     </task>
     <task id="LOCAL-00001" summary="添加单例模式内容，但是没有全部理解">
       <created>1595842945672</created>
@@ -476,14 +517,22 @@
       <option name="project" value="LOCAL" />
       <updated>1596179912079</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="命令模式模式  --  专注解耦">
+      <created>1596182373054</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596182373054</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51862000" />
+    <option name="totallyTimeSpent" value="54025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1761" y="82" width="1536" height="883" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16327913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -493,7 +542,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.5073431" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.37783712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,7 +619,8 @@
     <MESSAGE value="模板与观察者，设计模式开始涉及到类" />
     <MESSAGE value="迭代器模式" />
     <MESSAGE value="不是链的责任链模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="不是链的责任链模式" />
+    <MESSAGE value="命令模式模式  --  专注解耦" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令模式模式  --  专注解耦" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/Sender.java">
@@ -1018,6 +1068,37 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designModel/memento/MementoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
