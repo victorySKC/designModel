@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e1aa14-1621-4397-b814-8fd8443dbed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designModel/cor/Cor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designModel/command/CommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计模式笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/设计模式笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="277">
-                <caret line="1346" selection-start-line="1346" selection-end-line="1346" />
+              <first_editor relative-caret-position="567">
+                <caret line="1410" selection-start-line="1410" selection-end-line="1410" />
                 <folding>
                   <element signature="e#198#199#0" expanded="true" />
                   <element signature="e#247#248#0" expanded="true" />
@@ -121,6 +122,16 @@
                   <element signature="e#922#923#0" expanded="true" />
                   <element signature="e#1083#1084#0" expanded="true" />
                   <element signature="e#1131#1132#0" expanded="true" />
+                  <element signature="e#361#362#0" expanded="true" />
+                  <element signature="e#391#392#0" expanded="true" />
+                  <element signature="e#429#430#0" expanded="true" />
+                  <element signature="e#457#458#0" expanded="true" />
+                  <element signature="e#501#502#0" expanded="true" />
+                  <element signature="e#543#544#0" expanded="true" />
+                  <element signature="e#620#621#0" expanded="true" />
+                  <element signature="e#652#653#0" expanded="true" />
+                  <element signature="e#678#679#0" expanded="true" />
+                  <element signature="e#704#705#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -128,7 +139,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/designModel/cor/Cor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
@@ -140,6 +151,27 @@
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
                 <element signature="e#576#577#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/designModel/command/CommandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="12" selection-end-line="50" selection-end-column="1" />
+              <folding>
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,8 +221,9 @@
         <option value="$PROJECT_DIR$/src/com/designModel/observer/ObserverTest.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/interator/Interator.java" />
         <option value="$PROJECT_DIR$/src/com/designModel/interator/InteratorTest.java" />
-        <option value="$PROJECT_DIR$/设计模式笔记.md" />
         <option value="$PROJECT_DIR$/src/com/designModel/cor/Cor.java" />
+        <option value="$PROJECT_DIR$/src/com/designModel/command/CommandTest.java" />
+        <option value="$PROJECT_DIR$/设计模式笔记.md" />
       </list>
     </option>
   </component>
@@ -231,14 +264,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -276,7 +301,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cor">
+  <component name="RunManager" selected="Application.CommandTest">
+    <configuration name="CommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designModel.command.CommandTest" />
+      <module name="Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designModel.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.cor.Cor" />
       <module name="Design" />
@@ -316,19 +354,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designModel.strategy.Strategy" />
-      <module name="Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.designModel.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Template" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designModel.template.Template" />
       <module name="Design" />
@@ -344,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandTest" />
         <item itemvalue="Application.Cor" />
         <item itemvalue="Application.InteratorTest" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.Template" />
-        <item itemvalue="Application.Strategy" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +390,7 @@
       <workItem from="1595987273671" duration="14380000" />
       <workItem from="1596071618293" duration="7366000" />
       <workItem from="1596106306324" duration="29000" />
-      <workItem from="1596157031670" duration="10743000" />
+      <workItem from="1596157031670" duration="12688000" />
     </task>
     <task id="LOCAL-00001" summary="添加单例模式内容，但是没有全部理解">
       <created>1595842945672</created>
@@ -444,15 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596170476164</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="不是链的责任链模式">
+      <created>1596179912079</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596179912079</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49917000" />
+    <option name="totallyTimeSpent" value="51862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1761" y="82" width="1536" height="883" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16327913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -538,7 +569,8 @@
     <MESSAGE value="策略模式代码，享元与组合不做相关介绍" />
     <MESSAGE value="模板与观察者，设计模式开始涉及到类" />
     <MESSAGE value="迭代器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="迭代器模式" />
+    <MESSAGE value="不是链的责任链模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="不是链的责任链模式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/Sender.java">
@@ -839,11 +871,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designModel/cor/Cor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designModel/command/CommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="12" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="277">
-            <caret line="1346" selection-start-line="1346" selection-end-line="1346" />
+          <first_editor relative-caret-position="567">
+            <caret line="1410" selection-start-line="1410" selection-end-line="1410" />
             <folding>
               <element signature="e#198#199#0" expanded="true" />
               <element signature="e#247#248#0" expanded="true" />
@@ -939,24 +1005,19 @@
               <element signature="e#922#923#0" expanded="true" />
               <element signature="e#1083#1084#0" expanded="true" />
               <element signature="e#1131#1132#0" expanded="true" />
+              <element signature="e#361#362#0" expanded="true" />
+              <element signature="e#391#392#0" expanded="true" />
+              <element signature="e#429#430#0" expanded="true" />
+              <element signature="e#457#458#0" expanded="true" />
+              <element signature="e#501#502#0" expanded="true" />
+              <element signature="e#543#544#0" expanded="true" />
+              <element signature="e#620#621#0" expanded="true" />
+              <element signature="e#652#653#0" expanded="true" />
+              <element signature="e#678#679#0" expanded="true" />
+              <element signature="e#704#705#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/cor/Cor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
