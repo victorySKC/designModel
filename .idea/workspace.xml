@@ -4,6 +4,36 @@
     <list default="true" id="13e1aa14-1621-4397-b814-8fd8443dbed3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/adapter/AdapterA.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/adapter/AdapterA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/adapter/AdapterIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/adapter/AdapterIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/adapter/AdapterObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/adapter/AdapterObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/bridge/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/bridge/Bridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/builder/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/builder/BuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/command/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/command/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/composite/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/composite/Composite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/cor/Cor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/cor/Cor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/decorator/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/facade/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/facade/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/factory/FactoryTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/factory/FactoryTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/factory/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/factory/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/factory/SenderB.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/factory/SenderB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/factory/SenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/factory/SenderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/interator/InteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/interator/InteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/mediator/MediatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/mediator/MediatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/memento/MementoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/memento/MementoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/observer/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/observer/ObserverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/prototype/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/prototype/PrototypeTestA.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/prototype/PrototypeTestA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/proxy/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestB.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTestB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestC.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTestC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestD.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTestD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/state/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/state/StateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/strategy/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/template/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/template/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designModel/visitor/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/com/designModel/visitor/VisitorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,9 +63,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/mediator/MediatorTest.java">
+        <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/mediator/MediatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="1121">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
@@ -45,8 +75,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,7 +84,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/state/StateTest.java">
+        <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/state/StateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
@@ -63,7 +93,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/visitor/VisitorTest.java">
+        <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/visitor/VisitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
               <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
@@ -72,9 +102,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/memento/MementoTest.java">
+        <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/memento/MementoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
+            <state relative-caret-position="1007">
               <caret line="75" column="1" selection-start-line="8" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="e#1193#1194#0" expanded="true" />
@@ -85,7 +115,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/cor/Cor.java">
+        <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/cor/Cor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
               <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
@@ -94,7 +124,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designModel/command/CommandTest.java">
+        <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/command/CommandTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="760">
               <caret line="50" column="1" selection-start-line="12" selection-end-line="50" selection-end-column="1" />
@@ -158,10 +188,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-124" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="-1875" />
+    <option name="y" value="49" />
+    <option name="width" value="1551" />
+    <option name="height" value="839" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,19 +207,29 @@
               <item name="Design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design" type="462c0819:PsiDirectoryNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/designModel/adapter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
@@ -307,7 +346,8 @@
       <workItem from="1596106306324" duration="29000" />
       <workItem from="1596157031670" duration="18609000" />
       <workItem from="1596248520225" duration="5022000" />
-      <workItem from="1596267118456" duration="246000" />
+      <workItem from="1596267118456" duration="1025000" />
+      <workItem from="1596591012552" duration="467000" />
     </task>
     <task id="LOCAL-00001" summary="添加单例模式内容，但是没有全部理解">
       <created>1595842945672</created>
@@ -435,17 +475,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596260897514</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="在README.md 加点内容">
+      <created>1596267419007</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596267419007</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63051000" />
+    <option name="totallyTimeSpent" value="64297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-124" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13006397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,10 +583,11 @@
     <MESSAGE value="状态模式state" />
     <MESSAGE value="访问者模式visitor" />
     <MESSAGE value="中介模式midiator" />
-    <option name="LAST_COMMIT_MESSAGE" value="中介模式midiator" />
+    <MESSAGE value="在README.md 加点内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="在README.md 加点内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/Sender.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/factory/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
@@ -552,28 +600,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/SenderB.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/factory/SenderB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/FactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/factory/FactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/FactoryTest02.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/factory/FactoryTest02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/builder/BuilderTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/builder/BuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
@@ -585,28 +633,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/singleton/SingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="34" column="1" selection-start-line="10" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestB.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTestB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestC.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTestC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/singleton/SingletonTestD.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/singleton/SingletonTestD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
@@ -638,21 +686,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/factory/SenderFactory.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/factory/SenderFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/prototype/Prototype.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/prototype/Prototype.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/prototype/PrototypeTestA.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/prototype/PrototypeTestA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
@@ -663,14 +711,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/adapter/AdapterA.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/adapter/AdapterA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="38" lean-forward="true" selection-start-line="8" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/adapter/AdapterObject.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/adapter/AdapterObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
           <caret line="52" column="1" lean-forward="true" selection-start-line="8" selection-end-line="52" selection-end-column="1" />
@@ -685,7 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/adapter/AdapterIn.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/adapter/AdapterIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
@@ -702,7 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/decorator/Decorator.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/decorator/Decorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="49" selection-start-line="8" selection-end-line="49" />
@@ -713,7 +761,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/proxy/Proxy.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/proxy/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="48" column="1" lean-forward="true" selection-start-line="8" selection-end-line="48" selection-end-column="1" />
@@ -728,7 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/bridge/Bridge.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/bridge/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="60" column="1" lean-forward="true" selection-start-line="8" selection-end-line="60" selection-end-column="1" />
@@ -756,7 +804,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/composite/Composite.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/composite/Composite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="30" column="7" selection-start-line="28" selection-start-column="6" selection-end-line="30" selection-end-column="7" />
@@ -766,14 +814,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/facade/Facade.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/facade/Facade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/template/Template.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/template/Template.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
@@ -784,14 +832,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/strategy/Strategy.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/strategy/Strategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="16" column="35" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/observer/ObserverTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/observer/ObserverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="77" column="1" selection-end-line="77" selection-end-column="1" />
@@ -810,7 +858,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/interator/InteratorTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/interator/InteratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="84" column="1" lean-forward="true" selection-start-line="8" selection-end-line="84" selection-end-column="1" />
@@ -837,23 +885,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/state/StateTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/mediator/MediatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/state/StateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/visitor/VisitorTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/visitor/VisitorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/memento/MementoTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/memento/MementoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
+        <state relative-caret-position="1007">
           <caret line="75" column="1" selection-start-line="8" selection-end-line="75" selection-end-column="1" />
           <folding>
             <element signature="e#1193#1194#0" expanded="true" />
@@ -862,32 +917,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/cor/Cor.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/cor/Cor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/command/CommandTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/com/designModel/command/CommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="50" column="1" selection-start-line="12" selection-end-line="50" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designModel/mediator/MediatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
@@ -896,9 +944,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javase</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
